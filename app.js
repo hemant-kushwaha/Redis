@@ -1,9 +1,14 @@
 import redisClient from "./redis.config.js";
 
-const result = await redisClient.setJSON("test", { user: "Hemant" });
-console.log(result);
+// const result = await redisClient.setJSON("test", { user: "Hemant" });
+// console.log(result);
 
-const result2 = await redisClient.getJSON("test");
-console.log(result2);
+// const result2 = await redisClient.getJSON("test");
+// console.log(result2);
+
+const result = await redisClient.json.get("user:1", {
+  path: "$.*",
+});
+console.log(result);
 
 await redisClient.quit();
