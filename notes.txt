@@ -1,0 +1,3 @@
+CLear Automatically cached . 
+Incase of stale Data CASE (Updated Data) -> Manual Clear
+More Often Changed data + Computed Data is stored in Cache
