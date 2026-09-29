@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../14_understanding-redis-search-starter"
+		}
+	],
+	"settings": {}
+}
